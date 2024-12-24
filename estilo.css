@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: black;
+}
+header{
+    width: 100%;
+    color: white;
+    text-align: end;
+    padding-top: 5%;
+}
+header span{
+    margin-right: 6%;
+    font-size: 800%;
+}
+button{
+    width: 9.5%;
+    height: 10vh;
+    border-radius: 35%;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.5%;
+    font-size: 200%;
+}
+main .horizon{
+    background-color: #212121;
+    color: #FFFFFF;
+}
+main .gray{
+    background-color: #A5A5A5;
+    color: #000000;
+}
+main .operations{
+    background-color: #FF9F0A;
+    color: #FFFFFF;
+}
+main .numbers{
+    background-color: #333333;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 250%;
+}
+main .ZeroTwo{
+    background-color: #333333;
+    color: #FFFFFF;
+    width: 19.2%;
+    font-weight: 600;
+    font-size: 270%;
+    text-align: start;
+    padding-left: 2%;
+}
+main .horizon:hover{
+    background-color: #21212199;
+}
+main .gray:hover{
+    background-color: #A5A5A599;
+}
+main .ZeroTwo:hover{
+    background-color: #33333399;
+}
+main .numbers:hover{
+    background-color: #33333399;
+}
+main .operations:hover{
+    background-color: #FF9F0A99;
+}
+main .horizon:active{
+    background-color: #46464699;
+    transition: 1s;
+}
+main .gray:active{
+    background-color: #efefef99;
+    transition: 1s
+}
+main .ZeroTwo:active{
+    background-color: #68686899;
+    transition: 1s;
+}
+main .numbers:active{
+    background-color: #68686899;
+    transition: 1s;
+}
+main .operations:active{
+    background-color: #ffc15e99;
+    transition: 1s;
+}
